@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Jersey 15", serif;
+}

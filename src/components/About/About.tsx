@@ -20,13 +20,22 @@ export function About() {
           </p>
           <div className="flex justify-center mt-6">
             <a href="#">
-              <FaInstagram size={30} className="mx-4 text-red-500" />
+              <FaInstagram
+                size={30}
+                className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+              />
             </a>
             <a href="https://www.linkedin.com/in/dinur-temirbay-295662274/">
-              <FaLinkedin size={30} className="mx-4 text-red-500" />
+              <FaLinkedin
+                size={30}
+                className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+              />
             </a>
             <a href="https://github.com/Dinur-Temirbay">
-              <FaGithub size={30} className="mx-4 text-red-500" />
+              <FaGithub
+                size={30}
+                className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+              />
             </a>
           </div>
         </div>

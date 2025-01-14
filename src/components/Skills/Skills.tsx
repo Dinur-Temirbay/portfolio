@@ -15,16 +15,43 @@ export function Skills() {
       <div className="py-20 w-4/5">
         <h2 className="text-4xl text-center">Skills</h2>
         <div className="border-2 mt-1 border-red-500 w-[7%] mx-auto rounded-sm "></div>
-        <div className="flex justify-center mt-6">
-          <FaHtml5 size={30} className="mx-4 text-red-500" />
-          <FaCss3Alt size={30} className="mx-4 text-red-500" />
-          <FaGitAlt size={30} className="mx-4 text-red-500" />
-          <RiJavascriptFill size={30} className="mx-4 text-red-500" />
-          <BiLogoTypescript size={30} className="mx-4 text-red-500" />
-          <BiLogoTailwindCss size={30} className="mx-4 text-red-500" />
-          <FaReact size={30} className="mx-4 text-red-500" />
-          <FaSass size={30} className="mx-4 text-red-500" />
-          <FaBootstrap size={30} className="mx-4 text-red-500" />
+        <div className="flex justify-center mt-8">
+          <FaHtml5
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <FaCss3Alt
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <FaGitAlt
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <RiJavascriptFill
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <BiLogoTypescript
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <BiLogoTailwindCss
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <FaReact
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <FaSass
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
+          <FaBootstrap
+            size={30}
+            className="mx-3 text-red-500 hover:scale-105 transition ease-in-out"
+          />
         </div>
       </div>
     </div>
